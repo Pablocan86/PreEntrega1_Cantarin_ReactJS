@@ -1,0 +1,79 @@
+.headerPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+.imagenLogo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+}
+
+h1 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.divNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+button {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+button:hover {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.carWidget {
+  position: relative;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.iconoCarrito {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: px solid white;
+  border-radius: 100%;
+}
+
+.cantidad {
+  border: 1px solid rgb(52, 228, 213);
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  left: 40px;
+  top: 35px;
+}
+
+.itemListContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: all 1s;
+}
+
+.itemListContainer:hover {
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+}

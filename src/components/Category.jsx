@@ -4,7 +4,7 @@ import "../styles/App.css";
 export const Category = ({ categoria }) => {
   return (
     <div>
-      <button> {categoria}</button>
+      <button className="botones_categorias"> {categoria}</button>
     </div>
   );
 };

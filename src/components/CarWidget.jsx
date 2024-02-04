@@ -5,7 +5,7 @@ export const CarWidget = () => {
     <div className="carWidget">
       <img
         className="iconoCarrito"
-        src="../src/assets/images/carrito.svg"
+        src="../src/assets/images/cart.svg"
         alt=""
       />
       <span className="cantidad">0</span>

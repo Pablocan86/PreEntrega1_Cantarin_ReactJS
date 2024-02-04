@@ -6,6 +6,12 @@
   width: 100%;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .imagenLogo {
   margin-top: 10px;
   margin-left: 10px;
@@ -15,8 +21,15 @@
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "Protest Riot", sans-serif;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  transform: rotate(-20deg);
 }
 
 .divNavbar {
@@ -27,7 +40,7 @@ h1 {
   width: 60%;
 }
 
-button {
+.botones_categorias {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   border: none;
@@ -35,7 +48,7 @@ button {
   cursor: pointer;
   font-size: 1.5rem;
 }
-button:hover {
+.botones_categorias:hover {
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -54,7 +67,7 @@ button:hover {
 }
 
 .cantidad {
-  border: 1px solid rgb(52, 228, 213);
+  border: 1px solid rgb(106, 202, 10);
   background-color: white;
   border-radius: 100%;
   padding: 5px 10px 5px 10px;
@@ -62,18 +75,113 @@ button:hover {
   left: 40px;
   top: 35px;
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .itemListContainer {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  font-size: 2rem;
-  transition: all 1s;
+  flex-wrap: wrap;
 }
 
-.itemListContainer:hover {
-  background-color: black;
+.grupo_agregar {
+  font-size: 1rem;
+  margin-left: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.botones_sumarrestar {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.botones_sumarrestar span {
+  padding: 10px;
+}
+
+.botones_sumarrestar button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 80px;
+  height: 100%;
+}
+
+.botones_sumarrestar button:hover {
+  background-color: rgb(106, 202, 10);
   color: white;
-  font-size: 3rem;
+}
+
+.boton_agregar {
+  font-family: "Josefin Sans", sans-serif;
+  border: 1px solid rgb(106, 202, 10);
+  background-color: rgb(106, 202, 10);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.boton_agregar:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: rgb(106, 202, 10);
+}
+
+.div_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 30px gray;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.title_item {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  background-color: rgb(106, 202, 10);
+}
+.img_item {
+  width: 200px;
+  height: 200px;
+}
+
+.div_button_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description_item {
+  margin: 5px;
+  text-align: justify;
+}
+
+.price_item {
+  margin-bottom: 5px;
 }

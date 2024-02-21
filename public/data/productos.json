@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Colchón Dual",
+    "size": "190x140",
+    "price": 412350.0,
+    "stock": 20,
+    "img": "1.jpg",
+    "category": "dos-plazas"
+  },
+  {
+    "id": 2,
+    "title": "Colchón Renovation Pillow Top",
+    "size": "190x140",
+    "price": 617131.0,
+    "stock": 20,
+    "img": "2.jpg",
+    "category": "dos-plazas"
+  },
+  {
+    "id": 3,
+    "title": "Colchón Princess",
+    "size": "190x080",
+    "price": 186715.0,
+    "stock": 20,
+    "img": "3.jpg",
+    "category": "una-plaza"
+  },
+  {
+    "id": 4,
+    "title": "Colchón Támesis",
+    "size": "190x100",
+    "price": 216653.0,
+    "stock": 20,
+    "img": "4.jpg",
+    "category": "una-plaza"
+  },
+  {
+    "id": 5,
+    "title": "Colchón Especial de Lujo",
+    "size": "190x080",
+    "price": 114622.01,
+    "stock": 20,
+    "img": "5.jpg",
+    "category": "una-plaza"
+  },
+  {
+    "id": 6,
+    "title": "Colchón Compac Plus",
+    "size": "190x140",
+    "price": 369054.01,
+    "stock": 20,
+    "img": "6.png",
+    "category": "dos-plazas"
+  },
+  {
+    "id": 7,
+    "title": "Colchón Disney Multipixar Cuna",
+    "size": "60x120",
+    "price": 35686.0,
+    "stock": 20,
+    "img": "7.jpg",
+    "category": "chicos"
+  },
+  {
+    "id": 8,
+    "title": "Colchón Disney Frozen",
+    "size": "190x080",
+    "price": 109824.0,
+    "stock": 20,
+    "img": "8.jpg",
+    "category": "chicos"
+  },
+  {
+    "id": 9,
+    "title": "Colchón Marvel Spiderman",
+    "size": "190x080",
+    "price": 109824.0,
+    "stock": 20,
+    "img": "9.jpg",
+    "category": "accesorios"
+  }
+]

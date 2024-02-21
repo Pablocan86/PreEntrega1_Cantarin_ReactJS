@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CarWidget = () => {
+export const CartWidget = () => {
   return (
     <div className="carWidget">
       <img

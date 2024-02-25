@@ -2,15 +2,14 @@ import "../styles/App.css";
 import { CartWidget } from "./CartWidget";
 import { Categories } from "./Categories";
 import { Link } from "react-router-dom";
+import { GiBed } from "react-icons/gi";
 export const Navbar = () => {
   return (
     <header className="headerPage">
       <div className="logo">
-        <img
-          className="imagenLogo"
-          src="../src/assets/images/furniture-bed.svg"
-          alt="logo marca"
-        />
+        <Link to={"/"}>
+          <GiBed className="imagenLogo" />
+        </Link>
         <h1>LA COLCHONERIA MORÓN</h1>
       </div>
       <nav className="divNavbar">

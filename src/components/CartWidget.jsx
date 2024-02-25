@@ -1,13 +1,10 @@
-import React from "react";
+import { LiaOpencart } from "react-icons/lia";
 
 export const CartWidget = () => {
   return (
     <div className="carWidget">
-      <img
-        className="iconoCarrito"
-        src="../src/assets/images/cart.svg"
-        alt=""
-      />
+      <LiaOpencart className="iconoCarrito" />
+
       <span className="cantidad">0</span>
     </div>
   );

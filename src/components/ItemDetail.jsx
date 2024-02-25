@@ -4,6 +4,7 @@ import "../styles/App.css";
 export const ItemDetail = ({ item }) => {
   const { count, increment, decrement, reset } = useCounter(1, item.stock, 1);
   const handleAddToCart = () => {
+    console.log(`Estoy comprando ${count} unidades de ${item.title}`);
     console.log("Productos agregado al carrito");
   };
   return (

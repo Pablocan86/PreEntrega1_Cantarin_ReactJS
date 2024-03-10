@@ -61,10 +61,13 @@ h1 {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  transition: all 1s;
 }
 .botones_categorias:hover {
   font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  color: chartreuse;
 }
 
 .carWidget {
@@ -73,24 +76,31 @@ h1 {
   margin-right: 20px;
 }
 
-.iconoCarrito {
-  width: 60px;
-  height: 60px;
-  background-color: white;
+.buttonCarrito {
+  background-color: transparent;
   color: green;
-  border: 1px solid white;
+  border: none;
   border-radius: 100%;
 }
 
+.buttonCarrito:hover {
+  cursor: pointer;
+}
+.icono_carrito {
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+
 .cantidad {
-  background-color: rgb(106, 202, 10);
-  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem;
   color: white;
   font-weight: bolder;
   padding: 10px;
   position: absolute;
-  left: 40px;
-  top: 35px;
+  left: 20%;
+  top: 20%;
 }
 main {
   display: flex;
@@ -287,6 +297,133 @@ main {
   width: 50%;
 }
 
+.carritoVacio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  width: 99%;
+  border: 1px gray solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.carritoVacio h4 {
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+.grupoCarrito {
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+
+.resumen {
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-right: 10px;
+  align-self: flex-end;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.grupoBtnsCarrito {
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
+}
+
+.botonCarrito {
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  background-color: rgb(106, 202, 10);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.botonCarrito:hover {
+  background-color: white;
+  border: 1px solid rgb(106, 202, 10);
+  color: rgb(106, 202, 10);
+}
+
+.itemCart {
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.itemCartTitle {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grupoAgregarCarrito {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnsCarrito {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.btnsCarrito button {
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  background-color: rgb(106, 202, 10);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 25%;
+}
+
+.btnEliminar {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
 .checkout {
   margin: auto;
   display: flex;

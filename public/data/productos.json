@@ -1,83 +1,74 @@
 [
   {
-    "id": 1,
     "title": "Colchón Dual",
     "size": "190x140",
     "price": 412350.0,
     "stock": 20,
-    "img": "1.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/1.jpg?alt=media&token=7e8a065f-5e98-4bc7-8046-f12c87149989",
     "category": "dos-plazas"
   },
   {
-    "id": 2,
     "title": "Colchón Renovation Pillow Top",
     "size": "190x140",
     "price": 617131.0,
     "stock": 20,
-    "img": "2.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/2.jpg?alt=media&token=3d1ae620-ddbb-4e17-b923-057c827d7166",
     "category": "dos-plazas"
   },
   {
-    "id": 3,
     "title": "Colchón Princess",
     "size": "190x080",
     "price": 186715.0,
     "stock": 20,
-    "img": "3.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/3.jpg?alt=media&token=a0c76c89-781b-42d3-b8ad-54061f48de8c",
     "category": "una-plaza"
   },
   {
-    "id": 4,
     "title": "Colchón Támesis",
     "size": "190x100",
     "price": 216653.0,
     "stock": 20,
-    "img": "4.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/4.jpg?alt=media&token=b0a2cc43-1d9e-42a6-8a97-0eec81c10a6e",
     "category": "una-plaza"
   },
   {
-    "id": 5,
     "title": "Colchón Especial de Lujo",
     "size": "190x080",
     "price": 114622.01,
     "stock": 20,
-    "img": "5.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/5.jpg?alt=media&token=39c823b4-e09f-414a-b7d5-8648f82c38e9",
     "category": "una-plaza"
   },
   {
-    "id": 6,
     "title": "Colchón Compac Plus",
     "size": "190x140",
     "price": 369054.01,
     "stock": 20,
-    "img": "6.png",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/6.png?alt=media&token=7db87e50-97d9-49c2-8812-bacee82fd687",
     "category": "dos-plazas"
   },
   {
-    "id": 7,
     "title": "Colchón Disney Multipixar Cuna",
     "size": "60x120",
     "price": 35686.0,
     "stock": 20,
-    "img": "7.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/7.jpg?alt=media&token=192b1e8b-906c-4b7a-82f5-f9832f45dd38",
     "category": "chicos"
   },
   {
-    "id": 8,
     "title": "Colchón Disney Frozen",
     "size": "190x080",
     "price": 109824.0,
     "stock": 20,
-    "img": "8.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/8.jpg?alt=media&token=272f321e-5bc9-4ae8-b5ae-39af0c2057a7",
     "category": "chicos"
   },
   {
-    "id": 9,
     "title": "Colchón Marvel Spiderman",
     "size": "190x080",
     "price": 109824.0,
     "stock": 20,
-    "img": "9.jpg",
+    "img": "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/9.jpg?alt=media&token=84a8722b-eaa7-4991-8a11-a6d86dc27c1c",
     "category": "accesorios"
   }
 ]

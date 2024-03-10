@@ -7,7 +7,7 @@ export const Item = ({ product }) => {
       <h2 className="title_item">{product.title}</h2>
       <img
         className="img_item"
-        src={`../images/${product.img}`}
+        src={`${product.img}`}
         alt={`Imagen de ${product.title}`}
       />
       <h3 className="mark_item">Tamaño: {product.size}</h3>

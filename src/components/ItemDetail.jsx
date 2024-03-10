@@ -1,11 +1,24 @@
 import { useCounter } from "../hooks/useCounter";
 import { Link } from "react-router-dom";
+import { useCartContext } from "../context/CartContext";
 import "../styles/App.css";
+import { toast } from "react-toastify";
+
 export const ItemDetail = ({ item }) => {
+  const { addItem } = useCartContext();
   const { count, increment, decrement, reset } = useCounter(1, item.stock, 1);
   const handleAddToCart = () => {
-    console.log(`Estoy comprando ${count} unidades de ${item.title}`);
-    console.log("Productos agregado al carrito");
+    addItem(item, count);
+    toast.success(`Producto agregado correctamente`, {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
   };
   return (
     <div className="div_item_detail">
@@ -20,7 +33,7 @@ export const ItemDetail = ({ item }) => {
       <div className="img_and_details">
         <img
           className="img_item_details"
-          src={`../images/${item.img}`}
+          src={`${item.img}`}
           alt={`Imagen de ${item.title}`}
         />
         <div className="details">

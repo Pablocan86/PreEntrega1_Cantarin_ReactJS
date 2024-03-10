@@ -1,4 +1,8 @@
 import "../styles/App.css";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdChildCare } from "react-icons/md";
+import { LuBedSingle, LuBedDouble } from "react-icons/lu";
+import { BsMoonStars } from "react-icons/bs";
 import { CartWidget } from "./CartWidget";
 import { Categories } from "./Categories";
 import { Link } from "react-router-dom";
@@ -14,19 +18,19 @@ export const Navbar = () => {
       </div>
       <nav className="divNavbar">
         <Link to={"/"}>
-          <Categories categoria="Inicio" />
+          <Categories categoria={<IoHomeOutline />} />
         </Link>
         <Link to={"/category/una-plaza"}>
-          <Categories categoria="Una plaza" />
+          <Categories categoria={<LuBedSingle />} />
         </Link>
         <Link to={"/category/dos-plazas"}>
-          <Categories categoria="Dos plazas" />
+          <Categories categoria={<LuBedDouble />} />
         </Link>
         <Link to={"/category/chicos"}>
-          <Categories categoria="Niños" />
+          <Categories categoria={<MdChildCare />} />
         </Link>
         <Link to={"/category/accesorios"}>
-          <Categories categoria="Accesorios" />
+          <Categories categoria={<BsMoonStars />} />
         </Link>
       </nav>
       <div>

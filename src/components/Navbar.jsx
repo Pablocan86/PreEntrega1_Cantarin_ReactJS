@@ -2,7 +2,7 @@ import "../styles/App.css";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdChildCare } from "react-icons/md";
 import { LuBedSingle, LuBedDouble } from "react-icons/lu";
-import { BsMoonStars } from "react-icons/bs";
+import { GiPillow } from "react-icons/gi";
 import { CartWidget } from "./CartWidget";
 import { Categories } from "./Categories";
 import { Link } from "react-router-dom";
@@ -29,8 +29,8 @@ export const Navbar = () => {
         <Link to={"/category/chicos"}>
           <Categories categoria={<MdChildCare />} />
         </Link>
-        <Link to={"/category/accesorios"}>
-          <Categories categoria={<BsMoonStars />} />
+        <Link to={"/category/almohadas"}>
+          <Categories categoria={<GiPillow />} />
         </Link>
       </nav>
       <div>

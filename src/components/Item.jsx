@@ -11,8 +11,7 @@ export const Item = ({ product }) => {
         alt={`Imagen de ${product.title}`}
       />
       <h3 className="mark_item">Tamaño: {product.size}</h3>
-      {/* <p className="description_item">{product.descripción}</p> */}
-      {/* <p className="stock_item">Stock: {product.stock}</p> */}
+
       <div className="div_button_item">
         <span className="price_item">$ {product.price}</span>
       </div>

@@ -38,7 +38,7 @@ export const ItemDetail = ({ item }) => {
         />
         <div className="details">
           <p>Tamaño: {item.size}</p>
-          <p>Descripción</p>
+          <p>Descripción: {item.description}</p>
           <p>Stock: {item.stock}</p>
           <p>Precio: $ {item.price}</p>
           <div className="grupo_agregar">

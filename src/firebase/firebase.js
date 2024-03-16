@@ -93,7 +93,24 @@ const prods = [
     price: 109824.0,
     stock: 20,
     img: "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/9.jpg?alt=media&token=84a8722b-eaa7-4991-8a11-a6d86dc27c1c",
-    category: "accesorios",
+    category: "chicos",
+  },
+  {
+    title: "Almohada Platino",
+    size: "090x040",
+    price: 16493.0,
+    stock: 20,
+    img: "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/10.jpg?alt=media&token=e2c33e0f-d8db-44da-867c-29ba98941e54",
+    category: "almohadas",
+  },
+  ,
+  {
+    title: "Almohada Doral",
+    size: "070x050",
+    price: 17550.0,
+    stock: 20,
+    img: "https://firebasestorage.googleapis.com/v0/b/pfcantarin-reactjs.appspot.com/o/11.jpg?alt=media&token=d7df2901-32d0-459e-8752-67b6eec6d4ec",
+    category: "almohadas",
   },
 ];
 
